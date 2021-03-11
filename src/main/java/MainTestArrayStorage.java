@@ -1,4 +1,3 @@
-package main.java;
 
 /**
  * Test for your ArrayStorage implementation
@@ -21,8 +20,10 @@ public class MainTestArrayStorage {
         ARRAY_STORAGE.save(employee1);
         ARRAY_STORAGE.save(employee2);
         ARRAY_STORAGE.save(employee3);
+        ARRAY_STORAGE.save(null);
         ARRAY_STORAGE.save(employee4);
         ARRAY_STORAGE.save(employee5);
+        ARRAY_STORAGE.save(null);
 
         System.out.println("Get employee1: " + ARRAY_STORAGE.get(employee1.uuid));
         System.out.println("Size: " + ARRAY_STORAGE.size());
