@@ -4,6 +4,9 @@
 public class ArrayStorage {
     Employee[] storage = new Employee[10000];
 
+    private int counter = 0;
+
+
     void clear() {
     }
 
